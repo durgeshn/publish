@@ -1,0 +1,60 @@
+[BASE_ASSET_TYPE]
+assets = assets
+sequence = episodes
+
+[ASSET_TYPE]
+bg = bg
+cam = cam
+character = chars
+prop = props
+
+[SHOT_TYPE]
+shots = shots
+
+[DEPT]
+art = art
+cbs = cbs
+cfx = cfx
+fac = fac
+lit = lit
+mod = mod
+rig = rig
+rnd = rnd
+tex = tex
+
+[REPO]
+out = out
+work = work
+fileext = mb
+type = base
+refine = refine
+shot = shot
+
+[ARTISTTYPE]
+model = model
+rig = rig
+tex = tex
+
+[PROJECTNAME]
+mtb = mtb
+
+[COMPANYNAME]
+philm = philmcgi01
+
+[PATH]
+projectroot = P:\project
+localRoot = D:\project\@USER
+fileGeneric = $PROJ_$ASSETNAME_$DEPT_$VERSION.$FILEEXT
+serverAssetPath = $PROJECTROOT\$PROJ\$BASEASSETTYPE\$ASSETTYPE\$ASSETNAME\$DEPT\$REPO\$VERSION\$FILELOCATION\$FILEGENERIC
+shotGeneric = $PROJ_$SHOTNAME_$SHOTSEQUENCE_$LAYOUT-$LAYOUT_$REPO-$SHOTNUMBER_$REPO_$VERSION.$FILEEXT
+animGeneric = $PROJ_ANM01_$SHOTSEQUENCE_$SHOTNUMBER_$ANIM_$REPO_$COMPNAME_$VERSION.$FILEEXT
+localAssetPath = $PROJECTROOT\$PROJ\$BASEASSETTYPE\$ASSETTYPE\$ASSETNAME\$DEPT\$REPO\$VERSION\$FILELOCATION\$FILEGENERIC
+shotsPath = $PROJECTROOT\$PROJ\$BASESHOTTYPE\$SHOTNAME\$SHOTSEQUENCE\$LAYOUT\$LAYOUT\$VERSION\$FILELOCATION\$SHOTNUMBER\$FILEGENERIC
+animpath = $PROJECTROOT\$PROJ\$BASESHOTTYPE\$SHOTNAME\$SHOTSEQUENCE\$SHOTNUMBER\$ANIM\$REPO\$VERSION\$FILELOCATION\$FILEGENERIC
+localshotPath = $PROJECTROOT\$PROJ\$BASESHOTTYPE\$SHOTNAME\$SHOTSEQUENCE\$LAYOUT\$LAYOUT\$VERSION\$FILELOCATION\$SHOTNUMBER\$FILEGENERIC
+assetPath = $PROJECTROOT\$PROJ\$BASEASSETTYPE\$ASSETTYPE\$ASSETNAME\$DEPT\$REPO\$VERSION\$FILELOCATION\$FILEGENERIC
+
+"P:\project\mtb\assets\chars\cbog\mod\work\v01\mb\mtb_cbog_mod_v01_007.mb"
+
+[DBHOST]
+host = 192.168.0.21
